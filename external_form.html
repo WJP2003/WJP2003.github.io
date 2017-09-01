@@ -4,18 +4,23 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>External Forms</title>
+		<style>
+			.form {
+				font-size:20;
+			}
+		</style>
 	</head>
 <body>
 <!-- Form tag must have action="https://ubuntuserver.powe.ga:4080/CURRENT_PAGE_HERE" -->
 <form style="font-size:150%;" action="https://ubuntuserver.powe.ga:4080/external_form">
 	Email Address:
-		<input style="font-size:16pt;" type="text" name="a" value="" size="35">
+		<input class="form" type="text" name="a" value="" size="35">
 	<br>First name:
-		<input type="text" name="b" value="" size="35">
+		<input class="form" type="text" name="b" value="" size="35">
 	<br>Last name:
-		<input type="text" name="c" value="" size="35">
+		<input class="form" type="text" name="c" value="" size="25">
 	<br>
-		<input type="submit" value="Send" size="35">
+		<input class="form" type="submit" value="Send" size="25">
 </form> 
 </body>
 </html>
