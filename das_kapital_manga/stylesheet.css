@@ -3,6 +3,11 @@
   margin-right: auto;
   width: 33%;
 }
+.next {
+  text-align: center;
+  font-size: 48pt;
+  font-family: "Times New Roman";
+}
 .page {
 // something maybe lol
 }
